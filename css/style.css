@@ -1331,7 +1331,7 @@ Feature full
 .jl_full_feature .jl_f_postbox .jl_post_meta{
     text-shadow: 1px 1px 2px rgba(28,28,28,.1);
 }
-.jl_full_feature .jl_f_postbox .jl_f_title a{    
+.jl_full_feature .jl_f_postbox .jl_f_title a, .jl_f_title {    
     color: #fff;
     display: inline;
     font-size: 35px;
@@ -9490,7 +9490,7 @@ Menu slide
 .jl_post_type_icon{
     color: #fff;
     background: #fff;
-    background: rgba(52,58,64,.75);
+    background-color: #FF0000;
     font-size: 16px !important;
     height: 35px;
     width: 35px;
@@ -9504,6 +9504,15 @@ Menu slide
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+.jl_m_right_img .jl_post_type_icon {
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    right: 10px;
+    top: 10px;
+    font-size: 12px !important;
+}
+
 .jl_post_type_icon .jli-quote-2{
     font-size: 25px;
 }
@@ -9514,6 +9523,12 @@ Menu slide
     text-align: center;
     float: left;
     font-weight: normal;
+}
+
+.jl_m_right_img .jl_post_type_icon i {
+    height: 25px;
+    width: 25px;
+    line-height: 26px;
 }
 
 /* =================================== search and menu ===================================*/
