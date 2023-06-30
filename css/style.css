@@ -2421,7 +2421,7 @@ Category header
 /*-------------------------------------------------------------------------------------
 Dark Skin
 -------------------------------------------------------------------------------------*/
-.options_dark_skin.options_layout_wrapper{
+/* .options_dark_skin.options_layout_wrapper{
     background: #1a1a1a;
 }
 .options_dark_skin a,
@@ -3010,7 +3010,7 @@ Dark Skin
 }
 .admin-bar .header_magazine_style.header_layout_style3_custom .menu_wrapper{
     top: 32px !important;
-}
+} */
 
 /*-------------------------------------------------------------------------------------
 header slider and carousel post

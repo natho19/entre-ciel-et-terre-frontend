@@ -90,7 +90,7 @@
      font-family: var(--font-heading) !important;
      font-size:17px !important;
      font-weight:600 !important;
-     text-transform: capitalize !important;
+     /* text-transform: capitalize !important; */
      letter-spacing: -0.025em !important;
 }
  .navigation_wrapper #mainmenu.jl_main_menu > li li > a, .social-count-plus span, .jl_social_counter .num-count, .jl_count_style_2 .jlsocial-element-right{
