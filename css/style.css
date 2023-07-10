@@ -6397,7 +6397,7 @@ Header Magazine style
     float: left;
 }
 .jl_header_magazine_style.two_header_top_style.jl_cus_top_share .header_top_bar_wrapper{
-    background: #000;
+    background: #003051;
 }
 .jl_header_magazine_style.two_header_top_style .navigation_wrapper > ul{
     margin-left: 0px !important;
@@ -18135,9 +18135,9 @@ go to top
 Footer
 -------------------------------------------------------------------------------------*/
 .enable_footer_columns_dark{
-    background: #151515;
+    background: #003051;
     color: #fff; 
-    border-top: 1px solid #303030;
+    /* border-top: 1px solid #303030; */
 }
 .enable_footer_columns_dark a{
     color: #fff;
@@ -18157,7 +18157,7 @@ Footer
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #3a3939;
+    background: #000;
     border-radius: 5px;
 }
 .enable_footer_columns_dark .social-icons-list-widget li a:hover{
@@ -18371,7 +18371,7 @@ footer .widget .image-flickr-widget li {
 }
 .bottom_footer_menu_text .jl_ft_w{
     padding: 30px 0 35px 0;
-    border-top: 1px solid #383838;
+    border-top: 1px solid #7ac7fd;
     float: left;
     width: 100%;
 }
@@ -19111,4 +19111,9 @@ figure.wp-block-table{
     .jl_s_slide_text_wrapper, .jl_s_slide_text_wrapper .jl_s_slider_img, .jl_s_slide_text_wrapper .banner-container, .large_center_slider_container.jl_single_slider_box.jl_s_slide_text_wrapper .item{
         height: 750px;
     }
+}
+
+footer .widget .link-list-widget {
+    list-style: none;
+    line-height: 2;
 }
