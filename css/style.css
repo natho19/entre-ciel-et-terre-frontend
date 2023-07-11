@@ -3359,7 +3359,7 @@ Header menu style 3
 .header_layout_style3_custom .header_top_bar_wrapper .navigation_wrapper > ul > li a{
     font-size: 13px !important;
     font-weight: 400 !important;
-    text-transform: capitalize;
+    text-transform: none;
     letter-spacing: 0;
 }
 .header_top_bar_wrapper .jl_top_bar_right{
@@ -3859,7 +3859,7 @@ Header with social header top share
     height: 40px;
     line-height: 40px;
     font-size: 13px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 .jl_header_magazine_style.jl_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
     color: #fff !important;
@@ -3934,9 +3934,9 @@ Header with social header top share
 }
 .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .search_header_wrapper, .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .menu_mobile_icons{
     margin-right: 0px;
-    margin-left: 5px;
-    height: 40px !important;
-    line-height: 40px !important;
+    margin-left: 8px;
+    /* height: 40px !important;
+    line-height: 40px !important; */
     text-align: center;
     width: 30px !important;
     float: right;
@@ -6413,6 +6413,10 @@ Header Magazine style
     width: auto;
     margin-left: auto;
     margin-right: 13px;
+    width: 140px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 .jl_header_magazine_style.two_header_top_style .menu_mobile_icons{
     margin-left: 5px;
@@ -19129,4 +19133,37 @@ figure.wp-block-table{
 footer .widget .link-list-widget {
     list-style: none;
     line-height: 2;
+}
+
+.select-dropdown {
+    position: relative;
+}
+
+.select-dropdown:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    width: 0;
+    height: 0;
+    margin-top: -2px;
+    border-top: 5px solid rgba(0, 0, 0, 0.6);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.select {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 18px 6px 10px;
+    border: none;
+    background-color: #e6e6e6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.select:active,
+.select:focus {
+    outline: none;
+    box-shadow: none;
 }
