@@ -3513,7 +3513,7 @@ Header menu style 3
 }
 .header_layout_style3_custom .search_header_menu{
     overflow: visible;
-    margin: auto;
+    /* margin: auto; */
     margin-right: 15px;
     z-index: 9;
     
@@ -3918,15 +3918,14 @@ Header with social header top share
     opacity: 1 !important;
     font-size:  17px !important;
 }
-.header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile{
+/* .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile{
     position: absolute;
     top: 50%;
     right: 0px;
     -webkit-transform: translate3d(0,0,0) perspective(1px) translateY(-50%);
     -ms-transform: translate3d(0,0,0) perspective(1px) translateY(-50%);
-    transform: translate3d(0,0,0) perspective(1px) translateY(-50%);
-    
-}
+    transform: translate3d(0,0,0) perspective(1px) translateY(-50%); 
+} */
 .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .search_header_wrapper{
     right: 45px;
 }
@@ -5297,10 +5296,15 @@ footer .recent_post_large_widget{
     margin-right: 5px;
 }
 .jellywp_about_us_widget_wrapper .footer_logo_about {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     float: none;
     display: inline-block;
-    width: 130px;
+    width: 200px;
+}
+@media only screen and (max-width: 425px) {
+    .jellywp_about_us_widget_wrapper .footer_logo_about {
+        width: 150px;
+    }
 }
 .jellywp_about_us_widget_wrapper .jl_img_sign{
     float: left;
@@ -6407,6 +6411,7 @@ Header Magazine style
 }
 .jl_header_magazine_style.two_header_top_style .search_header_menu{
     width: auto;
+    margin-left: auto;
     margin-right: 13px;
 }
 .jl_header_magazine_style.two_header_top_style .menu_mobile_icons{
@@ -6578,7 +6583,13 @@ Header Magazine style
     -ms-transition: all 0.2s ease 0s;
     -o-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
-    max-height: 30px;
+    width: 200px;
+    padding: 8px 0;
+}
+@media only screen and (max-width: 425px) {
+    .jl_header_magazine_style.header_layout_style3_custom .logo_small_wrapper_table .logo_small_wrapper a img {
+        width: 150px;
+    }
 }
 .jl_header_magazine_style.header_layout_style3_custom .logo_small_wrapper_table .logo_small_wrapper a .jl_logo_w{
     position: absolute;
@@ -6681,6 +6692,8 @@ Header
     float: right;
     z-index: 998;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .header-main-position {
     position: relative;
@@ -9533,7 +9546,7 @@ Menu slide
 
 /* =================================== search and menu ===================================*/
 .search_header_menu{
-    margin: auto;
+    /* margin: auto; */
     margin-right: 15px;
     position: absolute;
     top: 0;
@@ -13661,7 +13674,7 @@ footer .widget .widget-title h2{
     text-align: left;
     height: auto;
     line-height: 1.2;
-    margin-bottom: 30px !important;
+    margin: 30px 0 !important;
     text-transform: capitalize;
     border-bottom: 0px !important;
 }
@@ -18237,7 +18250,7 @@ footer .col-md-3, footer .col-md-4, footer .col-md-6, footer .col-md-12{
     padding-left: 25px;
 }
 footer.jl_footer_act .footer-columns{
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 footer .social-icons-list-widget{
